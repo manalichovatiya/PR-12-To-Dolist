@@ -1,0 +1,127 @@
+body {
+    background-color: #272626;
+    font-family: cursive;
+}
+
+.container {
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    padding: 30px 40px;
+}
+
+#newtask {
+    position: relative;
+    background-color: #e7e4e4;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(243, 240, 240, 0.3);
+}
+
+#newtask input {
+    width: 70%;
+    height: 20px;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+}
+#blank {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#newtask input:focus {
+    outline: none;
+    border-color: #130a28;
+}
+
+#newtask button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #181817;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s;
+}
+#newtask button:hover {
+    background-color: #130a28;
+    color: #ffffff;
+    box-shadow: -3px 11px 12px rgb(27, 26, 26);
+}
+#tasks {
+    background-color: #272626;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.task {
+    background-color: #e7e4e4;
+    padding: 7px;
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(37, 38, 38);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 47px;
+    transition: all 0.5s;
+}
+
+.task span {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.ul {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.task button {
+    background-color: #181817;
+    color: #ffffff;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    align-self: flex-end;
+    transition: all 0.5s;
+}
+
+.task button i {
+    font-size: 18px;
+    color: #ffffff;
+
+}
+.task:hover {
+    background-color: #c0c4c7;
+}
+
+
+.task button:hover {
+    background-color: #130a28;
+    color: #ffffff;
+    box-shadow: -3px 11px 12px rgb(27, 26, 26);
+}
